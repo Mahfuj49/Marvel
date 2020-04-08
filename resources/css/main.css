@@ -1,0 +1,205 @@
+/*------------------  COLOR  ---------------------*/
+
+Marvel red color #AA1428
+Marvel fire color #ffe608a4
+
+/*------------------  BASIC SETUP  ---------------------*/
+
+html {
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Lato' ,sans-serif;
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*------------------  HEADINGS  ---------------------*/
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size:300%;
+    margin: 80px 0 50px 0;
+}
+
+h1:after {
+    display: block;
+    content:" ";
+    padding: 2px;
+    background-color: #AA1428;
+    margin: 10px auto 100px auto;
+    width: 600px;
+    border-radius: 2px;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0 10px 0;
+}
+/*------------------  LINKS  ---------------------*/
+
+.link {
+    position: absolute;
+    display: block;
+    width:170px;
+    color: #fff;
+    font-size: 120%;
+    bottom: 13%;
+    left: 63%;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.link svg {
+    fill: #fff;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    vertical-align: middle;
+}
+
+.link:hover svg {
+    margin-left: 15px;
+}
+
+.link2 {
+    display :block;
+    margin-left: 46%;
+    margin-top: 70px;
+    width: 170px;
+    color: #AA1428;
+    fill: #AA1428;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: 400;
+}
+
+.link2 svg {
+    fill: #AA1428;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    vertical-align: middle;
+}
+
+.link2:hover svg {
+    margin-left: 15px;
+}
+
+
+/*------------------  BUTTONS  ---------------------*/
+
+.btn {
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto 0 auto;
+    width: 40%;
+    font-size: 120%;
+    font-weight: 400;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: #AA1428;
+    border: 2px solid #AA1428;
+    border-radius: 25px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background-color: #AA1428;
+    color: white;
+}
+
+/*------------------  HEADER  ---------------------*/
+
+header {
+    position: relative;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), #ff040475),  url(./img/background.png);
+    padding: 80px 0 0 150px;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#logo {
+    position: absolute;
+    width: 10%;
+    left: 20px;
+    top: 20px;
+}
+
+#title {
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    left: 15%;
+    bottom: 31%;
+}
+
+#title-big {
+    position: absolute;
+    color: #AA1428;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 800%;
+    font-weight: 400;
+    text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.637) , -1px -1px 10px #ffe608a4 ,
+                  -1px -1px 10px rgb(255, 255, 255) , -1px -1px 10px #AA1428 ;
+    left: 32%;
+    top: 65%;
+    text-shadow: 3px;
+    text-transform: uppercase;
+}
+
+
+/*------------------  MOVIE CATALOGUE  ---------------------*/
+
+.section-catalog {
+    padding-bottom: 100px;
+}
+
+.section-catalog img {
+    width: 100%;
+    transform: scale(1.08);
+    transition: transform 0.5s;
+}
+
+.section-catalog img:hover {
+    transform: scale(1.2);
+}
+
+figure {
+    border: 2px solid #AA1428;
+    overflow: hidden;
+}
+
+.movies {
+    margin-bottom: 60px;
+}
+
+/*------------------  FOOTER  ---------------------*/
+
+footer {
+    background-color: rgb(31, 31, 31);
+    padding: 120px;
+    font-size: 110%;
+}
+footer p {
+    color: gray;
+    word-spacing: 2px;
+    text-align: center;
+}
